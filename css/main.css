@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+.containeer{
+    max-width: 1110px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat;
+}
+
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: cadetblue;
+    background-image: url(hidi.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.headertitle {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 66px;
+    line-height: 130%;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color: #ffffff;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    
+}
+.portfollio{
+    
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+.porfolio-header{
+    
+    margin-bottom: 200px;
+    font-size: 46px;
+    line-height: 130%;
+    font-weight: 700;
+}
+.porfolio-cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    margin-bottom: 30px;
+    padding: 20px;
+    
+    max-width: 540px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 40px rgba(126,155,189,0.35);
+    
+}
+.card:last-child{
+    margin-bottom: 0;
+}
+.card:nth-last-child(2){
+margin-bottom: 0;
+}
+
+.card.image{
+    margin-top: 20px;
+
+}
+.section-header{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px; /* Дополнительно центрирует конкретный элемент */
+}
+.card-title{
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height:130%; 
+    margin:0;
+    margin-bottom: 13px;
+}
+.card p{
+    font-family: Montserrat;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+}
+.footer{
+    font-family: Montserrat;
+    background-color: #e0dcb4d7;
+    padding-top: 30px;
+    padding-bottom: 130px;
+    color: aliceblue;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+} 
+.footer-copyright{
+    color: aquamarine;
+    line-height: 1.3;
+}
+.footercopyrightname{
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.footercopyright p{
+margin: 0;
+margin-bottom: 15px;
+font-size: 16px;
+font-weight: 600;
+}
